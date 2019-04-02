@@ -1,2 +1,3 @@
 # TIHI07
-Trabajo Centos7
+Trabajo CentOS7
+
