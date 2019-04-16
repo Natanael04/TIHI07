@@ -2,8 +2,8 @@
 <h1>Trabajo CentOS7
   <h2>Introduccion</h2>
   Con el presente repositorio crearemos una guia la cual contiene los siguientes puntos:
-  <br>
-  *Instalacion de una ISO en VirtualBox en esta oportunidad usaremos CentOS7
+  &nbsp;
+  *Instalacion de una ISO en VirtualBox en esta oportunidad usaremos **CentOS7**
   *Habilitar SSH
   *Instalacion de Java Oracle
   *Instalacion de un ambiente o interfaz de escritorio
