@@ -21,8 +21,12 @@
   &nbsp;
   
    En primer lugar bajaremos el ISO desde la pagina principal https://www.centos.org/download/. Nos dirigimos a **Minimal ISO** para esta oportunidad descargaremos la primera opcion.
-//aca tiene que ir como se instala la iso y la config del virtual box no se
+  &nbsp;
+//aca tiene que ir como se instala la iso y la config del virtual box tambien lo del putty no se
 
 &nbsp;
 
- <h3>1.- Habilitacion de **SSH**</h3>
+ <h3>1.- Habilitacion de SSH</h3>
+ 
+&nbsp;
+
