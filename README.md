@@ -18,3 +18,6 @@
   
   <h3>1.- Instalacion ISO CentOS7 en VirtualBox</h3>
   
+  &nbsp;
+  
+    aksjkajs
