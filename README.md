@@ -13,3 +13,8 @@
   1. Instalacion de una base de datos **(PostgreSQL)**
   1. Test de Java, utilizando un framework
   1. Comprobacion de conexion a la base de datos
+
+  &nbsp;
+  
+  <h3>Instalacion ISO *CentOS7* en VirtualBox</h3>
+  
