@@ -3,7 +3,7 @@
   <h2>Introduccion</h2>
   Con el presente repositorio crearemos una guia la cual contiene los siguientes puntos:
   
-  
+  &nbsp;
   1. Instalacion de una ISO en VirtualBox en esta oportunidad usaremos **CentOS7**
   1. Habilitar SSH
   1. Instalacion de Java Oracle
