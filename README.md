@@ -21,12 +21,20 @@
   &nbsp;
   
    En primer lugar bajaremos el ISO desde la pagina principal https://www.centos.org/download/. Nos dirigimos a **Minimal ISO** para esta oportunidad descargaremos la primera opcion.
-  &nbsp;
-//aca tiene que ir como se instala la iso y la config del virtual box tambien lo del putty no se
+    
+*aca tiene que ir como se instala la iso y la config del virtual box*
 
 &nbsp;
 
- <h3>1.- Habilitacion de SSH</h3>
+ <h3>2.- Habilitacion de SSH</h3>
  
 &nbsp;
+*aca va la descarga del putty y las confg*
+ En la linea de comandos escribiremos lo siguiente : **yum -y install openssh-server openssh-clients** , Este comando nos permite instalar el servidor y cliente.
+ Una vez ya instalado lo habilitamos con el siguiente comando : **chkconfig sshd en**
+ 
+&nbsp;
+
+<h3>3.- Habilitacion de SSH</h3>
+
 
