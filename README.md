@@ -16,5 +16,5 @@
 
   &nbsp;
   
-  <h3>Instalacion ISO *CentOS7* en VirtualBox</h3>
+  <h4>1.- Instalacion ISO CentOS7 en VirtualBox</h4>
   
