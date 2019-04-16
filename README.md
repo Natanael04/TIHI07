@@ -20,4 +20,5 @@
   
   &nbsp;
   
-    aksjkajs
+   En primer lugar bajaremos el ISO desde la pagina principal https://www.centos.org/download/. Nos dirigimos a **Minimal ISO** para esta oportunidad descargaremos la primera opcion.
+   
