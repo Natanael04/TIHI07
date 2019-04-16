@@ -30,11 +30,13 @@
  
 &nbsp;
 *aca va la descarga del putty y las confg*
+
  En la linea de comandos escribiremos lo siguiente : **yum -y install openssh-server openssh-clients** , Este comando nos permite instalar el servidor y cliente.
  Una vez ya instalado lo habilitamos con el siguiente comando : **chkconfig sshd en**
  
 &nbsp;
 
-<h3>3.- Habilitacion de SSH</h3>
+<h3>3.- Instalacion de Java Oracle</h3>
+
 
 
