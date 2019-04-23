@@ -59,4 +59,33 @@ Nos dirigimos a Putty e ingresamos la IP y puertos definidos anteriormente, cuan
 
 Primero nos dirigimos a la página oficial de java https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html y en esta buscaremos la descarga del JDK que termina en “.rpm”, una vez identificado el link de descarga lo colocaremos en conjunto al siguiente comando:
 
+      wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "(En este espacio se coloca el link de descarga)" 
+
+Para instalar el archivo descargado escribiremos lo siguiente:
+
+      yum localinstall jdk-8u161-linux-x64.rpm
       
+A medida que instala nos pedirá la confirmación por lo que aceptaremos con la letra “y”
+Para dejar de default nuestro java escribiremos las siguientes líneas de comando:
+
+      java –versión
+      
+      sudo alternatives --config java 
+      
+Colocado el segundo comando nos saldrá la lista de los JDK o JRE existentes y nos marcara el por defecto con un “+” y definidos por una numeración, por lo que colocaremos el número del JDK instalado para asignarlo por defecto.
+
+&nbsp;
+
+<h3>4.-  Instalación de un ambiente o interfaz (Gnome).</h3>
+
+&nbsp;
+
+Primero abrimos una ventana terminal e introducimos el siguiente comando 
+
+      sudo add-apt-repository ppa: gnome3-team / gnome3
+      
+Para instalar ejecutaremos el siguiente comando:
+
+      sudo apt-get update && sudo apt-get install gnome-shell ubuntu-gnome-desktop
+      
+Continuado con esto seleccionamos el administrador de inicio de sesión.
