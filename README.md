@@ -58,3 +58,5 @@ Nos dirigimos a Putty e ingresamos la IP y puertos definidos anteriormente, cuan
 <h3>3.- Instalacion de Java Oracle</h3>
 
 Primero nos dirigimos a la página oficial de java https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html y en esta buscaremos la descarga del JDK que termina en “.rpm”, una vez identificado el link de descarga lo colocaremos en conjunto al siguiente comando:
+
+      
