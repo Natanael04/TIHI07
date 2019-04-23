@@ -47,5 +47,12 @@
 
 <h3>3.- Instalacion de Java Oracle</h3>
 
+&nbsp;
 
+Posteriormente cerramos la máquina para configurar el puerto de conexión desde el menú de configuración en virtualbox. Este será a través del puerto 8001 con la ip por defecto de nuestra maquina local, la cual es 17.0.0.1
 
+Levantamos la interfaz de red de nombre “enp0s3” con el comando:
+
+      Ifup enp0s3
+      
+Nos dirigimos al Putty e ingresamos la IP y puertos definidos anteriormente, cuando la conexión es exitosa nos pedirá el usuario y contraseña de la máquina virtual, una vez ingresado este usuario tendremos control de la máquina virtual a través de la consola de comandos de Putty.
