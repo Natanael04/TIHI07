@@ -78,8 +78,6 @@ Colocado el segundo comando nos saldrá la lista de los JDK o JRE existentes y n
 
 <h3>4.-  Instalación de un ambiente o interfaz (Gnome).</h3>
 
-&nbsp;
-
 Primero abrimos una ventana terminal e introducimos el siguiente comando 
 
       sudo add-apt-repository ppa: gnome3-team / gnome3
@@ -93,8 +91,6 @@ Continuado con esto seleccionamos el administrador de inicio de sesión, cuando 
 &nbsp;
 
 <h3>5.-  Instalación de un IDE (NetBeans).</h3>
-
-&nbsp;
 
 Para instalar este IDE abrimos una ventana terminal en la cual escribiremos lo siguiente: 
 
@@ -111,8 +107,6 @@ Luego seguimos la instalación normal y ya tendríamos instalado el NetBeans.
 &nbsp;
 
 <h3>6.-  Instalacion de PostGreSQL.</h3>
-
-&nbsp;
 
 Para instalar PostGreSQL abrimos una ventana terminal en la cual copiaremos el siguiente comando: 
  
