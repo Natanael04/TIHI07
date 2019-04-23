@@ -88,4 +88,43 @@ Para instalar ejecutaremos el siguiente comando:
 
       sudo apt-get update && sudo apt-get install gnome-shell ubuntu-gnome-desktop
       
-Continuado con esto seleccionamos el administrador de inicio de sesión.
+Continuado con esto seleccionamos el administrador de inicio de sesión, cuando finalice la instalación, cerramos el terminal y reiniciamos el sistema.
+
+&nbsp;
+
+<h3>5.-  Instalación de un IDE (NetBeans).</h3>
+
+&nbsp;
+
+Para instalar este IDE abrimos una ventana terminal en la cual escribiremos lo siguiente: 
+
+      wget -c http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-linux.sh 
+      
+Completada la descargar ejecutamos el siguiente commando para hacer ejecutable el scrip del instalador y comenzar a instalar: 
+
+      chmod + x netbeans-8.2-linux.sh
+      
+      ./netbeans-8.2-linux.sh
+      
+Luego seguimos la instalación normal y ya tendríamos instalado el NetBeans. 
+
+&nbsp;
+
+<h3>6.-  Instalacion de PostGreSQL.</h3>
+
+&nbsp;
+
+Para instalar PostGreSQL abrimos una ventana terminal en la cual copiaremos el siguiente comando: 
+ 
+       yum install postgresql96 postgresql96-server postgresql96-contrib postgresql96-libs –y
+       
+Para Inicializar escribiremos lo siguiente:
+
+      /usr/pgsql-9.6/bin/postgresql96-setup initdb 
+      
+Ahora Iniciamos y Habilitamos PostGreSQL: 
+
+      systemctl enable postgresql-9.6.service 
+      
+      systemctl start postgresql-9.6.service 
+      
