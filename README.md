@@ -21,15 +21,12 @@
   &nbsp;
   
    En primer lugar bajaremos el ISO desde la pagina principal https://www.centos.org/download/. Nos dirigimos a **Minimal ISO** para esta oportunidad descargaremos la primera opcion.
-    
-*aca tiene que ir como se instala la iso y la config del virtual box*
 
 &nbsp;
 
  <h3>2.- Habilitacion de SSH</h3>
  
 &nbsp;
-*aca va la descarga del putty y las confg*
 
  En la linea de comandos escribiremos lo siguiente :
  
@@ -60,10 +57,19 @@ Nos dirigimos a Putty e ingresamos la IP y puertos definidos anteriormente, cuan
 Primero nos dirigimos a la página oficial de java https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html y en esta buscaremos la descarga del JDK que termina en “.rpm”, una vez identificado el link de descarga lo colocaremos en conjunto al siguiente comando:
 
       wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "(En este espacio se coloca el link de descarga)" 
+      
+&nbsp;
+
+<img src="https://github.com/Natanael04/TIHI07/blob/master/Informe/descargar%20oracle%20JDK%208.png" width="" height="">
+
 
 Para instalar el archivo descargado escribiremos lo siguiente:
 
       yum localinstall jdk-8u161-linux-x64.rpm
+      
+ &nbsp;
+ 
+ <img src="" width="" height="">
       
 A medida que instala nos pedirá la confirmación por lo que aceptaremos con la letra “y”
 Para dejar de default nuestro java escribiremos las siguientes líneas de comando:
