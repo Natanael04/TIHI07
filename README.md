@@ -69,7 +69,7 @@ Para instalar el archivo descargado escribiremos lo siguiente:
       
  &nbsp;
  
- <img src="" width="" height="">
+ <img src="https://github.com/Natanael04/TIHI07/blob/master/Informe/instalar%20oracle%20JDK8.png" width="" height="">
       
 A medida que instala nos pedirá la confirmación por lo que aceptaremos con la letra “y”
 Para dejar de default nuestro java escribiremos las siguientes líneas de comando:
