@@ -53,13 +53,19 @@
  
 &nbsp;
 
-Posteriormente cerramos la máquina para configurar el puerto de conexión desde el menú de configuración en virtualbox. Este será a través del puerto 8001 con la ip por defecto de nuestra maquina local, la cual es 17.0.0.1
+Posteriormente cerramos la máquina para configurar el puerto de conexión desde el menú de configuración en virtualbox. Este será a través del puerto 8001 con la ip por defecto de nuestra maquina local, la cual es 17.0.0.1 en el apartado "Red/Reenvio de puertos"
+
+<img src="https://github.com/Natanael04/TIHI07/blob/master/Informe/Reenvio%20de%20puertos.png" width="" height="">
 
 Levantamos la interfaz de red de nombre “enp0s3” con el comando:
 
       Ifup enp0s3
       
+<img src="https://github.com/Natanael04/TIHI07/blob/master/Informe/ifup%20enp0s3.png" width="" height="">
+      
 Nos dirigimos a Putty e ingresamos la IP y puertos definidos anteriormente, cuando la conexión es exitosa nos pedirá el usuario y contraseña de la máquina virtual, una vez ingresado este usuario tendremos control de la máquina virtual a través de la consola de comandos de Putty.
+ 
+ <img src="https://github.com/Natanael04/TIHI07/blob/master/Informe/Putty.png" width="" height="">
  
 &nbsp;
 
@@ -103,7 +109,7 @@ Para instalar ejecutaremos el siguiente comando:
 
       sudo apt-get update && sudo apt-get install gnome-shell ubuntu-gnome-desktop
       
-Continuado con esto seleccionamos el administrador de inicio de sesión, cuando finalice la instalación, cerramos el terminal y reiniciamos el sistema.
+Posteriormente seleccionamos el administrador de inicio de sesión, cuando finalice la instalación, cerramos el terminal y reiniciamos el sistema.
 
 &nbsp;
 
