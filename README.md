@@ -22,7 +22,7 @@
   
    En primer lugar bajaremos el ISO desde la pagina principal https://www.centos.org/download/. Nos dirigimos a **Minimal ISO** para esta oportunidad descargaremos la primera opcion.
    
- <img src="" width="" height="">
+ <img src="https://github.com/Natanael04/TIHI07/blob/master/Informe/Descarga%20CentOS7.png" width="" height="">
    
    Posteriormente, en la maquina virtual montaremos el ISO descargado
 
