@@ -38,6 +38,9 @@
  
       yum -y install openssh-server openssh-clients 
       
+ <img src="https://github.com/Natanael04/TIHI07/blob/master/Informe/Cliente-Servidor.png" width="" height="">
+   
+ 
  Este comando nos permite instalar el servidor y cliente.
  
  &nbsp;
@@ -45,6 +48,8 @@
  Una vez ya instalado lo habilitamos con el siguiente comando : 
  
       chkconfig sshd on
+ 
+ <img src="https://github.com/Natanael04/TIHI07/blob/master/Informe/chkconfig.png" width="" height="">
  
 &nbsp;
 
