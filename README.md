@@ -167,16 +167,16 @@ En este archivo bajaremos las dependencias que necesita PostGre, en el cual escr
 Despues que baje lo requerido crearemos otro proyecto de nombre test, en este proyecto crearemos un main en el cual escribiremos lo siguiente: 
 
       import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+      import java.sql.DriverManager;
+      import java.sql.ResultSet;
+      import java.sql.SQLException;
+      import java.sql.Statement;
 
-/**
- * @author imssbora
- */
-public class JDBCExample {
-  public static void main(String[] args) {
+      /**
+       * @author imssbora
+       */
+      public class JDBCExample {
+        public static void main(String[] args) {
 
     String jdbcUrl = "jdbc:postgresql://localhost:5432/"nombre de base de datos";
     String username = "Usuario";
