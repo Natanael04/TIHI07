@@ -108,10 +108,12 @@ Primero abrimos una ventana terminal e introducimos el siguiente comando
 Para instalar ejecutaremos el siguiente comando:
 
       sudo apt-get update && sudo apt-get install gnome-shell ubuntu-gnome-desktop
-<img src="https://github.com/Natanael04/TIHI07/blob/master/Informe/Gnome.png" width="" height="">
+
 
 
 Posteriormente seleccionamos el administrador de inicio de sesión, cuando finalice la instalación, cerramos el terminal y reiniciamos el sistema.
+
+<img src="https://github.com/Natanael04/TIHI07/blob/master/Informe/Gnome.png" width="" height="">
 
 &nbsp;
 
