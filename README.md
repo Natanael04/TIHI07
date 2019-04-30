@@ -128,7 +128,8 @@ Completada la descargar ejecutamos el siguiente commando para hacer ejecutable e
       chmod + x netbeans-8.2-linux.sh
       
       ./netbeans-8.2-linux.sh
-      
+<img src="https://github.com/Natanael04/TIHI07/blob/master/Informe/InstaladorN.png" width="" height="">
+
 Luego seguimos la instalación normal y ya tendríamos instalado el NetBeans. 
 
 &nbsp;
