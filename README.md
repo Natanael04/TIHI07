@@ -164,3 +164,66 @@ En este archivo bajaremos las dependencias que necesita PostGre, en el cual escr
         </dependency>
       </dependencies>
       
+Despues que baje lo requerido crearemos otro proyecto de nombre test, en este proyecto crearemos un main en el cual escribiremos lo siguiente: 
+
+      import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+/**
+ * @author imssbora
+ */
+public class JDBCExample {
+  public static void main(String[] args) {
+
+    String jdbcUrl = "jdbc:postgresql://localhost:5432/"nombre de base de datos";
+    String username = "Usuario";
+    String password = "Contraseña";
+
+    Connection conn = null;
+    Statement stmt = null;
+    ResultSet rs = null;
+
+    try {
+ 
+      conn = DriverManager.getConnection(jdbcUrl, username, password);
+
+
+      stmt = conn.createStatement();
+      rs = stmt.executeQuery("SELECT version()");
+
+
+      if (rs.next()) {
+        System.out.println(rs.getString(1));
+      }
+
+    } catch (SQLException e) {
+      e.printStackTrace();
+
+    } finally {
+      try {
+
+        if (stmt != null) {
+          stmt.close();
+        }
+        if (rs != null) {
+          rs.close();
+        }
+        if (conn != null) {
+          conn.close();
+        }
+      } catch (Exception e) {
+        e.printStackTrace();
+      }
+    }
+
+  }
+}
+
+(Para que nos arranque debemos importar la libreria de SQL)
+
+finalmente al arrancar el proyecto nos imprimira la version y no nos arrojara error quedandonos lo siguiente: 
+
+<img src="https://github.com/Natanael04/TIHI07/blob/master/Informe/postgreconn.png" width="" height="">
