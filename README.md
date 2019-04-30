@@ -11,7 +11,6 @@
   1. Instalacion de un ambiente o interfaz de escritorio
   1. Instalacion de un IDE **(NetBeans)**
   1. Instalacion de una base de datos **(PostgreSQL)**
-  1. Test de Java, utilizando un framework
   1. Comprobacion de conexion a la base de datos
 
   &nbsp;
@@ -149,4 +148,19 @@ Ahora Iniciamos y Habilitamos PostGreSQL:
       systemctl enable postgresql-9.6.service 
       
       systemctl start postgresql-9.6.service 
+
+&nbsp;
+<h3>7.-  Comprobacion de conexion a la base de datos.</h3>
+
+Una vez abierto NetBeans crearemos un proyecto nuevo, en nuestro proyecto iremos a la carpeta **Project Files**, y abriremos el archivo pom.xml
+
+En este archivo bajaremos las dependencias que necesita PostGre, en el cual escribiremos los siguientes codigos:
+
+      <dependencies>
+        <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.2.5</version>
+        </dependency>
+      </dependencies>
       
